@@ -174,3 +174,17 @@ body.modal-open {
         font-size: 1.8rem;
     }
 }
+
+.btn.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0.5rem 0.5rem !important;
+    background-color: #170e1a !important;
+    box-shadow: none;
+}
+
+.cbalink, a[href="https://www.zzz.com.ua/"] {
+    display: none
+}

@@ -76,7 +76,7 @@
         height: 100%;
         overflow-y: auto;
     }
-    .wallets-start-view .border-and-height:first-child {
+    .wallets-start-view .border-and-height:first-child, .default-wallet-view .border-and-height:first-child {
         margin-bottom: 15px;
     }
 }

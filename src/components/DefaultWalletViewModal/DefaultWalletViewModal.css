@@ -1,24 +1,15 @@
-.defaul-wallet-viev {
+.default-wallet-view {
     width: 100%;
-    padding: 100px 25px 100px 25px;
+    height: 97vh;
+    padding-top: 12vh;
 }
 
 .modal-content button.btn.btn-default.btn-sm.Ripple-parent.close {
     background: #170e1a !important;
 }
 
-.defaul-wallet-viev {
+.default-wallet-view {
     background-color: #170e1a;
-}
-
-.close {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 0;
-    padding: 0.5rem 0.5rem !important;
-    background-color: #170e1a !important;
-    box-shadow: none;
 }
 
 .btn-default, .close:hover, .close.btn-default:not([disabled]):not(.disabled):active, .close.btn-default:not([disabled]):not(.disabled):focus {

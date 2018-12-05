@@ -33,7 +33,7 @@ const Toolbar = ({
 				</NavItem>
 			</NavbarNav>
 
-			<NavbarNav className='toolbar-group' right>
+			{/* <NavbarNav className='toolbar-group' right>
 				<NavItem className='toolbar-group-item'>
 					<Dropdown>
 						<DropdownToggle className='toolbar-btn toolbar-dropdown-menu-toggle'>
@@ -47,7 +47,7 @@ const Toolbar = ({
 						</DropdownMenu>
 					</Dropdown>
 				</NavItem>
-			</NavbarNav>
+			</NavbarNav> */}
 		</Navbar>
 	);
 

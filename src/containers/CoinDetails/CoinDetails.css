@@ -228,7 +228,7 @@
         margin: 0 15px 30px 15px;
     }
     .footer-coin-details {
-        height: calc(65vh - 45px) !important;
+        height: calc(58vh - 45px) !important;
     }
 
     .tabs__tab {
@@ -242,7 +242,7 @@
         text-align: center;
     }
     .head-coin-details {
-        height: 30vh !important;
+        height: 37vh !important;
     }
 }
 

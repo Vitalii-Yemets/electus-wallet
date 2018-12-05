@@ -22,7 +22,7 @@ const DefaultWalletViewModal = ({
 			<Button className='close' onClick={onCloseDefaultWalletViewModal} size='sm'>
 				<Fa icon="close" size="lg" />
 			</Button>
-			<div className='defaul-wallet-viev'>
+			<div className='default-wallet-view'>
 				<div className="container-fluid">
 					<div className="row">
 						<div className="col-12 col-sm-5 col-md-5">
