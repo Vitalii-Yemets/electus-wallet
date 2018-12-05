@@ -177,7 +177,7 @@ const CoinDetails = ({
 							</CopyToClipboard>
 						</div>
 						<div className="t-c">
-							<label className='pub-adress'>Public Adress</label>
+							<label className='pub-adress'>Public Address</label>
 						</div>
 					</div>
 				</div>

@@ -13,7 +13,7 @@ const BlockchainMenu = ({
 		<Dropdown size='medium'>
 			<div className='blockchains-dropdown'>
 				<DropdownToggle caret>
-					{selectedBlokchain ? selectedBlokchain : 'Chose yor option'}
+					{selectedBlokchain ? selectedBlokchain : 'Choose your option'}
 				</DropdownToggle>
 				<DropdownMenu >
 					{blockchains}

@@ -1,5 +1,5 @@
 const initialRootState = {
-	isOpen: true,
+	isOpen: false,
 	isShowPreloader: true
 }
 

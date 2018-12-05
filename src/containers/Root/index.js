@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import { lifecycle } from 'recompose'
 import { openMenu, closeMenu, showPreloader } from './actions'
 
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
 import Settings from '../Settings'
 import Wallets from '../Wallets'
@@ -47,7 +47,7 @@ const Root = ({
 	}
 
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<div className='root'>
 				<Preloader {...preloaderProps} />
 
@@ -63,15 +63,15 @@ const Root = ({
 						</div>
 						<div className="col-lg-10 col-md-12 col-sm-12 col-xs-12 p-0">
 							<Switch>
-								<Route path='/settings' component={Settings} />
-								<Route path='/wallets' component={Wallets} />
-								<Redirect exact={true} path='*' to="/wallets" component={Wallets} />
+								<Route exact path='/settings' component={Settings} />
+								<Route exact path='/wallets' component={Wallets} />
+								<Redirect from='*' to='/wallets' />
 							</Switch>
 						</div>
 					</div>
 				</div>
 			</div>
-		</BrowserRouter>
+		</HashRouter>
 	)
 }
 

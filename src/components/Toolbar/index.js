@@ -7,21 +7,24 @@ import {
 	NavbarNav,
 	NavItem,
 	Button,
-	Dropdown,
-	DropdownToggle,
-	DropdownMenu,
-	DropdownItem
+	// Dropdown,
+	// DropdownToggle,
+	// DropdownMenu,
+	// DropdownItem
 } from 'mdbreact';
 
 // Assets
-import { MenuIcon, DotMenuIcon } from '../../assets/svg';
+import {
+	MenuIcon,
+	// DotMenuIcon
+} from '../../assets/svg';
 
 // Styles
 import './Toolbar.css';
 
 const Toolbar = ({
 	openMenu,
-	keysUploadEventEmitter$
+	// keysUploadEventEmitter$
 }) => (
 		<Navbar className='toolbar'>
 			<NavbarNav className='toolbar-group' left>
