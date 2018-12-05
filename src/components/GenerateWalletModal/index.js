@@ -23,6 +23,7 @@ const GenerateWalletModal = ({
 	selectedBlokchain,
 	coinChoseList,
 	seed,
+	selectedCoinsFromCoinChoseList,
 	walletInfo,
 	coinInfos,
 	availableBlockchains
@@ -39,7 +40,8 @@ const GenerateWalletModal = ({
 		isShowBlokchainChoseStep,
 		availableBlockchains,
 		selectedBlokchain,
-		coinChoseList
+		coinChoseList,
+		selectedCoinsFromCoinChoseList
 	}
 
 	const generateSeedStepProps = {

@@ -11,6 +11,7 @@ const BlokchainChoseStep = ({
 
 	selectedBlokchain,
 	coinChoseList,
+	selectedCoinsFromCoinChoseList,
 
 	isShowBlokchainChoseStep,
 	availableBlockchains,
@@ -25,7 +26,7 @@ const BlokchainChoseStep = ({
 		availableBlockchains,
 	}
 
-	const disabledNextStep = !selectedBlokchain
+	const disabledNextStep = !selectedBlokchain || !(selectedCoinsFromCoinChoseList.length > 0)
 
 	const coinChoseListProps = {
 		onCheckedCoin,
