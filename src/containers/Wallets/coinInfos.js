@@ -1,6 +1,6 @@
 import CoinType from '../../models/coin-type'
 import {
-	BitcoinIcon,
+	// BitcoinIcon,
 	EthereumIcon,
 	OmisegoIco,
 	ZrxIco,
@@ -16,17 +16,17 @@ import {
 } from '../../assets/svg/'
 
 const CoinInfos = {
-	Bitcoin: {
-		btc: {
-			symbol: 'btc',
-			name: 'Bitcoin',
-			type: CoinType.COIN,
-			contractAddress: null,
-			decimals: 8,
-			blokchain: 'Bitcoin',
-			ico: BitcoinIcon
-		}
-	},
+	// Bitcoin: {
+	// 	btc: {
+	// 		symbol: 'btc',
+	// 		name: 'Bitcoin',
+	// 		type: CoinType.COIN,
+	// 		contractAddress: null,
+	// 		decimals: 8,
+	// 		blokchain: 'Bitcoin',
+	// 		ico: BitcoinIcon
+	// 	}
+	// },
 	Ethereum: {
 		eth: {
 			symbol: 'eth',
