@@ -1,0 +1,77 @@
+.generate-wallet-steppers {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #707070;
+}
+
+.generate-wallet-steppers .step {
+	float: left;
+	color: #ccc;
+	line-height: 30px;
+	padding: 0 60px 0 60px;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+  }
+
+  .generate-wallet-steppers .step +.step {
+	padding: 0 60px 0 60px;
+  }
+
+  .generate-wallet-steppers .step:last-child {
+	padding-right: 60px;
+  }
+
+  .generate-wallet-steppers .active {
+	background-color: #561299;
+	color: #fff;
+  }
+
+  .generate-wallet-steppers .completed {
+	background-color: #300e51;
+	color: #fff;
+	cursor: pointer;
+  }
+
+  .generate-wallet-steppers .step:after,
+  .generate-wallet-steppers .step:before {
+	left: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	z-index: 5;
+  }
+
+  .generate-wallet-steppers .step:after {
+	border-width: 15px;
+	top: 50%;
+	margin-top: -15px;  
+  }
+
+  .generate-wallet-steppers .step:before {	
+	border-width: 16px;
+	top: 50%;
+	margin-top: -16px;
+  }
+
+  .generate-wallet-steppers .active:after {
+	border-left-color: #561299;
+  }
+
+  .generate-wallet-steppers .active:before {
+	border-left-color: #170e1a;
+  }
+
+  .generate-wallet-steppers .completed:after {
+	border-left-color: #300e51;
+  }
+  
+  .generate-wallet-steppers .completed:before {
+	border-left-color: #170e1a;
+  }

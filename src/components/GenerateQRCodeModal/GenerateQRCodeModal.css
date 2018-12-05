@@ -1,0 +1,72 @@
+.qr-generator {
+	height: 348px;
+	background-color: #170e1a
+}
+
+.modal-content {
+	background-color: #170e1a;
+}
+
+
+
+
+.modal-content .btn.btn-qr-download{
+	padding: 0 !important;
+    margin: 0;  
+    width: 150px;
+    height: 45px;
+    color: var(--white);
+    background: var(--btn-send-recive) !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.qr-generator-title .qr-generator-close-btn {
+	width: 35px;
+	height: 35px;
+	padding: 0;
+	margin: 0;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	box-shadow: none;
+	border-radius: 35px;
+	background-color: var(--dark-blue-violet) !important;
+	font-size: 25px;
+}
+
+.qr-generator-title .qr-generator-close-btn:hover {
+	box-shadow: var(--default-box-shadow);
+}
+
+.qr-generator-title .qr-generator-close-btn:not([disabled]):not(.disabled):active {
+	background-color: var(--dark-blue-violet) !important;
+}
+
+.qr-generator-title .qr-generator-label {
+	padding: 15px;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+.bloc-center {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-qr-download {
+	width: 100%!important;
+	height: 35px!important;
+	line-height: .2!important;
+	margin-top: 30px!important;
+	max-width: calc(100% - 50px)!important;
+	background-color: #4230bc !important;
+}

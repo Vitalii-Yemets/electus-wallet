@@ -1,0 +1,9 @@
+.line-chart{
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+}
+.recharts-tooltip-item span{
+    color: black !important;
+    font-weight: bold;
+}

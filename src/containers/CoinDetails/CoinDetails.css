@@ -1,0 +1,280 @@
+.coin-details {
+    width: 100%;
+    height: 100vh;
+    padding-top: 15px;
+}
+
+.h-content-tabs {
+    height: calc(70vh - 118px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.ico-details {
+    margin: 20px;
+}
+
+.float-r {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.tabs__tab-list {
+    padding-top: 15px !important;
+    border-bottom: none !important;
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+.adress-wallet {
+    background: var(--border);
+    height: 38px;
+    width: 80%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.adress-wallet label {
+    width: Calc(100% - 20px);
+    font-size: 12px;
+    opacity: .7;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 7px 0 7px 20px;
+    line-height: 2;
+}
+
+.btn.btn-copy-adress {
+    padding: 0 !important;
+    margin: 0 15px 0 -16px !important;
+    width: 70px;
+    height: 38px;
+    background-color: var(--btn-add) !important;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 20px;
+    float: right;
+    z-index: 9;
+}
+
+.pub-adress {
+    font-size: 12px;
+    opacity: .67;
+}
+
+.coin-details-name-simbol {
+    font-size: 12px;
+    margin-left: 15px;
+    opacity: .4;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.btn.coin-details-btn {
+    width: 200px;
+    height: 40px;
+    padding: 0;
+    margin: 15px 0 15px 0;
+    border-radius: 100px;
+    border: 1px solid var(--border);
+    font-size: 18px;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 16%);
+}
+
+.btn.coin-details-send, .btn.coin-details-recive {
+    background-color: var(--btn-send-recive) !important;
+    background: var(--btn-send-recive) !important;
+}
+
+.coin-details-transaction-history {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.h-content-tabs .transaction:nth-child(2n) {
+    background: var(--dark-violet);
+}
+
+.h-content-tabs .transaction:last-child {
+    margin-bottom: 15px;
+}
+
+.block-detail-balans {
+    margin-top: 7%;
+}
+
+.t-r {
+    text-align: right;
+}
+
+.t-l {
+    text-align: left;
+}
+
+.btn.all-time, .btn.last-day, .btn.last-week, .btn.last-month, .all-tab, .send-tab, .received-tab, .chart-tab {
+    padding: 5px 0 0 0 !important;
+    margin: 0 7px 15px 7px !important;
+    height: 26px;
+    border-radius: 100px;
+    background-color: var(--btn-send-recive) !important;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center !important;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.btn.all-time, .btn.last-day {
+    width: 84px;
+}
+
+.btn.last-week {
+    width: 95px;
+}
+
+.btn.last-month {
+    width: 104px;
+}
+
+.all-tab {
+    width: 57px;
+}
+
+.send-tab, .chart-tab {
+    width: 68px;
+}
+
+.received-tab {
+    width: 84px;
+}
+
+.tabs__tab--selected {
+    color: var(--white) !important;
+    border-bottom: none !important;
+    background: var(--btn-add) !important;
+}
+
+.tabs__tab-list {
+    display: flex;
+    justify-content: start !important;
+    position: relative;
+}
+
+.abs-filter-tab {
+    position: absolute;
+    right: 0;
+    width: 347px;
+    display: flex;
+    height: auto;
+    top: 0px;
+}
+.download-wallet-ico{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.border-top-details {
+    border-top: 1px solid #dee2e60a !important;
+}
+
+@media screen and (max-width: 1367px) {
+    .block-detail-balans {
+        margin-top: 0;
+    }
+    .coin-details-name-blockchain {
+        font-size: 18px;
+    }
+    .coin-details-balance {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .btn.coin-details-btn {
+        width: 140px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .coin-details-name-simbol {
+        font-size: 10px;
+        margin-left: 7px;
+        opacity: .4;
+        font-weight: bold;
+        padding-top: 4px;
+    }
+    .ico-details {
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .coin-details-btns .coin-details-btn {
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        margin: 0 15px 30px 15px;
+    }
+    .footer-coin-details {
+        height: calc(65vh - 45px) !important;
+    }
+
+    .tabs__tab {
+        font-size: 12px !important;
+    }
+    .coin-details, .coin-selector {
+        padding-top: 0;
+        height: calc(100vh - 57px) !important;
+    }
+    .coin-details-name-blockchain, .coin-details-balance {
+        text-align: center;
+    }
+    .head-coin-details {
+        height: 30vh !important;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .coin-tabs div ul li:last-child {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .mobile-coin-click {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .adress-wallet {
+        width: 70%;
+    }
+    .h-content-tabs {
+        height: calc(65vh - 118px);
+    }
+    .mobile-coin-click {
+        display: block !important;
+    }
+    .mobile-coin-click-btn {
+        width: 100% !important;
+        height: 30px !important;
+        padding: 0 !important;
+        font-size: 16px !important;
+        letter-spacing: .8px !important;
+        border-radius: 0 !important;
+        background-color: var(--btn-send-recive) !important;
+    }
+}

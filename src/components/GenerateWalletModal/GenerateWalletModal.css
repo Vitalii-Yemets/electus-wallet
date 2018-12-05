@@ -1,0 +1,69 @@
+.generate-wallet-modal .modal-content {
+	background-color: #170e1a;
+}
+
+.generate-wallet-modal .close {
+	position: absolute;
+    right: 0;
+    top: 0;
+	margin: 0;
+	padding: 0.5rem 0.5rem !important;
+	background-color: #170e1a !important;
+	box-shadow: none;
+}
+
+.generate-wallet-modal
+	.close:hover,
+	.close.btn-default:not([disabled]):not(.disabled):active,
+	.close.btn-default:not([disabled]):not(.disabled):focus {
+		background-color: #170e1a !important;
+		box-shadow: none;
+}
+
+.close .Ripple.is-reppling {
+	animation: none !important;
+}
+
+.close .fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\02715" !important;
+}
+
+.generate-wallet-modal .header {
+	padding: 35px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.generate-wallet-modal .body {
+	display: flex;
+	justify-content: center;
+}
+
+.body .generate-wallet-text {
+	font-family: 'Montserrat';
+	font-size: 24px;
+	color: var(--white);
+}
+
+.generate-wallet-modal .footer {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+}
+
+.footer .next-step {
+	width: 150px;
+	height: 46px;
+	padding: 0 !important;
+	margin: 0;
+	font-size: 16px !important;
+	font-weight: 500;
+	font-family: 'Montserrat';	
+	border-radius: 0px !important;
+	background-color: #221a28 !important;
+	text-transform: lowercase;
+}
+
+.footer .next-step:first-letter {
+	text-transform: capitalize;
+}

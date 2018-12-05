@@ -1,0 +1,54 @@
+/* dropdown-menu  dropdown-item */
+
+.blockchains-dropdown .btn {
+    width: 90%;
+    padding: 0 !important;
+    margin: 0;
+    height: 55px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 87%;
+    background-color: var(--btn-send-recive) !important;
+}
+
+.btn-secondary:not([disabled]):not(.disabled):active, .btn-secondary:not([disabled]):not(.disabled).active, .show>.btn-secondary.dropdown-toggle {
+    background-color: var(--btn-send-recive) !important;
+}
+
+.blockchains-dropdown .dropdown-menu {
+    width: 90%;
+    padding: 0 !important;
+    margin: 0;
+    border-radius: 0;
+    max-height: 30vh;
+    overflow-y: auto;
+}
+
+.dropdown-toggle::after {
+    position: absolute;
+    top: 43%;
+    right: 15px;
+}
+
+.blockchains-dropdown .dropdown-menu .dropdown-item {
+    padding: 0 !important;
+    margin: 0!important;
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 4;
+}
+
+.blockchains-dropdown .dropdown-menu .dropdown-item:nth-child(even) {
+    background-color: var(--dropdown-2n) !important;
+}
+
+.blockchains-dropdown .dropdown-menu .dropdown-item:nth-child(odd) {
+    background-color: var(--dropdown-2n1) !important;
+}
+
+.blockchains-dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: var(--btn-add) !important;
+}

@@ -1,0 +1,18 @@
+.generate-info-modal p{
+    margin: 10vh auto;
+    padding: 15px;
+    /* white-space:nowrap; */
+}
+
+.color-green{
+color:green;
+font-size: 19px;
+font-weight: 500;
+
+}
+
+.color-red{
+   color:red;
+   font-size: 19px;
+   font-weight: 500;
+}

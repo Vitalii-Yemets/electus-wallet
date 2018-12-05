@@ -1,0 +1,79 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+input[type=checkbox] {
+    display: none !important;
+}
+
+.form-inline {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 20px 11% 0 23%;
+    height: 37vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+    column-count:2; 
+    column-width: 100px;  
+    column-gap: 15px; 
+}
+
+input[type=checkbox]+label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+}
+
+input[type=checkbox]+label:before {
+    content: "\f096";
+}
+
+input[type=checkbox]+label:before {
+    letter-spacing: 10px;
+}
+
+input[type=checkbox]+label {
+    color: var(--white);
+    opacity: .3;
+}
+
+input[type=checkbox]:checked+label {
+    color: var(--white)!important;
+    opacity: 1;
+}
+
+input[type=checkbox]:checked+label:before {
+    content: "\f046";
+    color: var(--white)!important;
+    opacity: 1;
+}
+
+input[type=checkbox]:checked+label:before {
+    letter-spacing: 5px;
+}
+
+.form-inline .form-check {
+    width: 70px !important;
+    display: block !important;
+    /* float: right; */
+    padding-left: 0 !important;
+}
+.form-check.my-3{
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+@media screen and (max-width: 576px) {
+    .form-inline .form-check {
+        width: 100% !important;
+    }
+
+    .form-inline  {
+       text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 576px){
+    .form-inline {
+        padding: 20px 11% 90px 23% !important;
+    }
+}

@@ -1,0 +1,64 @@
+.finish-step {
+    height: 60vh;
+    position: relative;
+}
+
+.finish-step-name-blokchain {
+    font-weight: 300;
+    font-size: 27px;
+    color: var(--white);
+}
+
+.finish-step-coin-balance {
+    line-height: 3;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.symbol-finish-step {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.finish-step-wallet-address {
+    padding: 7px 30px 7px 30px;
+    margin: 15px 50px 15px 50px;
+    border-radius: 20px;
+    background: #231B26;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.finish-step-wallet-address-key {
+    opacity: .5;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.finish-step-ico-blokchain svg {
+    width: 100%;
+}
+
+@media screen and (max-width: 1367px) {
+    .finish-step {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .finish-step-wallet-address {
+        padding: 7px 15px 7px 15px;
+        margin: 15px 15px 15px 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px;
+    }
+    .finish-step-coin-balance {
+        line-height: 1;
+    }
+}

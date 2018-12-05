@@ -1,0 +1,88 @@
+.wallets {
+    color: var(--white);
+}
+
+.wallets-start-view {
+    height: 100%;
+    margin-top: 10vh;
+}
+
+.title-text-wallets-start-view {
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.or-text-wallets-start-view {
+    text-align: center;
+    color: white;
+}
+
+.border-and-height:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border: 2px solid rgb(247, 247, 247, 0.15);
+}
+
+.border-and-height:hover .btn-create-upload {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.wallets-start-view .login-form-button.btn-default:not([disabled]):not(.disabled):active {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.border-and-height {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    background: #170E1A;
+    border: 1px solid rgb(247, 247, 247, 0.15);
+    cursor: pointer;
+}
+
+.btn-create-upload {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: var(--btn-add) !important;
+    padding: 6px !important;
+    color: var(--white);
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.name-btb-wallet {
+    font-size: 14px;
+    color: var(--white);
+    margin-top: 10px;
+}
+
+.center-margin {
+    margin: 8vh auto;
+}
+
+@media screen and (max-width: 575px) {
+    .wallets-start-view {
+        margin-top: 0;
+    }
+    .d-none-block {
+        display: none;
+    }
+    .wallets {
+        height: 100%;
+        overflow-y: auto;
+    }
+    .wallets-start-view .border-and-height:first-child {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .center-margin {
+        margin: 10vh auto;
+    }
+}

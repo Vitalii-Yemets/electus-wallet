@@ -1,0 +1,31 @@
+.blokchain-chose-step {
+    height: 60vh;
+    position: relative;
+}
+
+.btn.next-step-btn {
+    padding: 0 !important;
+    margin: 0;
+    position: absolute;
+    bottom: 25px;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 45px;
+    color: var(--white);
+    background: var(--btn-send-recive) !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.generate-wallet-text {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 24px;
+    margin: 7% 0 7% 0;
+}
+
+@media screen and (max-width: 1367px) {
+    .blokchain-chose-step {
+        height: 75vh;
+    }
+}

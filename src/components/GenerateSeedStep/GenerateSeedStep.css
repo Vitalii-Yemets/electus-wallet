@@ -1,0 +1,55 @@
+
+.seed-step{
+    color: var(--white);
+    padding-bottom: 80px;
+}
+.btn-generate-seed{
+    border-radius: 50%;
+}
+.btn-generate-seed {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.btn-generate-seed svg{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    fill: var(--btn-add);    
+    animation-iteration-count: 1;
+}
+
+/* .seed-textarea{
+    width: 90%;
+    color: var(--white);
+    margin-left: 25px;
+    padding: 15px!important;
+    border: 1px solid #ced4da !important;
+    background: transparent;
+} */
+
+.seed-words{
+    border: 1px solid #ced4da;
+    padding: 15px;
+    margin: 15px;
+    font-weight: 400;
+}
+
+.seed-textarea{
+    width: 100%;
+    height: auto;
+    min-height: 130px;
+    background: transparent;
+    border-color: transparent;
+    color: var(--white);
+    outline: none;
+    text-align: center
+}
+
+
+
+@keyframes btnSpinner {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
